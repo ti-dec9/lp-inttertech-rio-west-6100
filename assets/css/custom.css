@@ -1,0 +1,99 @@
+/* CUSTOM */
+
+.banner-section .single-box {
+    padding: 30px 15px 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(213, 213, 213, 0.25);
+    border-radius: 10px;
+    text-align: center;
+    height: 175px;
+}
+
+.banner-section .single-box h6 {
+    width: 60%;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.text-blue {
+    color: #0055DE;
+}
+
+.header-section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link,
+.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item {
+    font-size: 14px;
+}
+
+
+/* CTA WPP */
+
+.cta-wpp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 110px;
+    right: 25px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.cta-wpp i {
+    position: relative;
+    top: calc(50% - 14.5px);
+    /* 50% - 3/4 of icon height */
+}
+
+.cta-wpp i:focus {
+    color: #FFF;
+}
+
+#cta-modal .modal-content .modal-header {
+    background-color: #0B6156;
+}
+
+#cta-modal .modal-content .modal-header p,
+#cta-modal .modal-content .modal-header .modal-title {
+    color: #fff;
+}
+
+
+#cta-modal .modal-body {
+    background-image: url('../images/bg-wpp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cta-modal .modal-content .modal-header .logo {
+    width: 100%;
+    height: auto;
+}
+
+#cta-modal .modal-body .form-cta-wpp input {
+    background-color: #e7ffe7;
+    font-size: 1rem;
+}
+
+#cta-modal .modal-body .form-cta-wpp input::placeholder {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+#cta-modal .btn-primary {
+    background-color: #0B6156;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.g-recaptcha {
+    width: 302px;
+    margin: auto;
+}
+
+.error {
+    color: red;
+}
