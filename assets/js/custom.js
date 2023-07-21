@@ -48,7 +48,28 @@ $(document).ready(function () {
 
 
     /* FORM CTA WPP */
-    $('#form-cta-wpp').validate();
+    var num1 = Math.floor(Math.random() * 10);
+    var num2 = Math.floor(Math.random() * 10);
+    var resposta = num1 + num2;
+
+    $("#label-captcha").html("Qual a soma de " + num1 + " + " + num2 + "?");
+
+    $('#form-cta-wpp').validate({       
+        submitHandler: function (form, e) {
+            /* CAPTCHAJS */  
+            var validation = $("#valida").val();
+            //console.log(validation);        
+            if (validation != resposta) {
+                e.preventDefault();
+                $("#mensagem").html('A soma está errada!');
+            } else {
+                $("#mensagem").hide(); 
+                $("#btn-form-cta-wpp").html('enviando, por favor aguarde...');
+                $("#btn-form-cta-wpp").attr("disabled", true);
+                $("#form-cta-wpp").submit();                
+            }
+        }
+    });
 
     /************************
     * VALIDATION FUNCTION

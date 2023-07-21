@@ -22,8 +22,8 @@ $cnpj  = $_POST['cnpj'];
 
 
 //Recipient
-$mailTo = 'contato@intertechrio.com.br';
-//$mailTo = 'xploter13@gmail.com';
+//$mailTo = 'contato@intertechrio.com.br';
+$mailTo = 'xploter13@gmail.com';
 
 $body = "<div style='font-size: 26px;color: #41637e;font-family: sans-serif;margin-bottom: 20px;' id='emb-email-header'>
 <p>Você tem uma nova mensagem do site, segue os dados abaixo:</p>

@@ -944,7 +944,10 @@
                         <!-- <div class="g-recaptcha" id="g-recaptcha-cta" data-sitekey="6LdX6LgmAAAAADFdW1XUaG_CRfzenPRRsphrmQA4"></div>    
                         <label class="recaptcha-error-form-cta text-center" style="color: red;">Preencha o recaptcha</label>   
                         <br> -->
-                        <button type="submit" class="btn btn-primary d-flex justify-content-end" id="btn-form-cta-wpp">Iniciar conversa</button>
+                        <p id="label-captcha"></p>
+                        <input id="valida" type="number" required />
+                        <p id="mensagem" style="color: red;"></p>
+                        <button type="submit" class="btn btn-primary d-flex mt-4 justify-content-end" id="btn-form-cta-wpp">Iniciar conversa</button>
                     </form>
                 </div>
             </div>
@@ -958,9 +961,10 @@
                 <div class="footer-bottom">
                     <div class="row gap-3 gap-md-0 justify-content-between align-items-center">
                         <div class="col-md-12 d-flex justify-content-center">
-                            <a href="index.php"><img src="assets/images/white_Inttertech-Rio_HORIZ-1024x205.png"
-                                    class="logo" style="width: 200px; height: auto; margin-bottom: 30px;"
-                                    alt="logo"></a>
+                            <a href="index.php">
+                                <img src="assets/images/white_Inttertech-Rio_HORIZ-1024x205.png" class="logo" style="width: 200px; height: auto; margin-bottom: 30px;"
+                                    alt="logo">
+                                </a>
                         </div>
                         <div class="col-md-12">
                             <div class="copyright text-center mt-4 mb-4">
