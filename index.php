@@ -897,10 +897,13 @@
         <i style="margin-top:16px" class="fa fa-whatsapp"></i>
     </a> -->
     <!-- CTA WPP - Button trigger modal -->
-    <a href="#" class="cta-wpp" data-bs-toggle="modal" data-bs-target="#cta-modal">
+    <!-- <a href="#" class="cta-wpp" data-bs-toggle="modal" data-bs-target="#cta-modal">
+        <i class="fa fa-whatsapp"></i>
+    </a> -->
+
+    <a href="https://wa.me/5521996072513?text=Gostaria%20de%20informações%20sobre%20o%20produto%20West%206100" class="cta-wpp" target="_blank">
         <i class="fa fa-whatsapp"></i>
     </a>
-
 
     <!-- Modal -->
     <div class="modal fade" id="cta-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

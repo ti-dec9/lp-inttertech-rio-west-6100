@@ -76,4 +76,4 @@ $mail->send();
 print_r($data);
 echo "</pre>"; */
 
-header('location:https://wa.me/5521996072513?text=Gostaria%20de%20informações%20sobre%20o%20produto%Encoder');
+header('location:https://wa.me/5521996072513?text=Gostaria%20de%20informações%20sobre%20o%20produto%20West%206100');
