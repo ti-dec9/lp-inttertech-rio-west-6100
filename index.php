@@ -331,6 +331,22 @@
                     <div class="col-lg-6 pt-5">
                         <div class="top-wrapper">
                             <p>Fundada em 2006, a <strong>Inttertech Rio</strong> é referência de liderança no mercado
+                                brasileiro, fornecendo com excelência há mais de 17 anos soluções completas em análise
+                                de gases, sistemas de condicionamento de amostras, calorímetros para medição de índice
+                                de Wobbe, poder calorífico, densidade específica em biogás, gás natural, gases de
+                                processo para cogeração, sensores e medidores de nível para líquidos e sólidos, de forma
+                                contínua e pontual, transmissores de pressão, medidores de vazão, de umidade (relativa,
+                                absoluta e dew point), de pH, de oxigênio dissolvido, de turbidez, de condutividade,
+                                processos CIP, instrumentação sanitária para alimentação/bebidas & pharma, controladores
+                                de processo e temperatura, medidores de índice de refração/BRIX, datalogger sem papel,
+                                contadores de golpes, de voltas, de pulsos, tacômetros digitais, encoders bidirecionais,
+                                encoders incrementais, sensores de medição de velocidade, aceleração e posição, células
+                                de carga para pontes rolantes, guindastes, bags para testes de carga, gerenciamento e
+                                inventário industrial, micro-célula/strain gauge, SPDA, dissipadores de descargas
+                                elétricas atmosféricas, protetores contra transientes, surtos elétricos e pulso
+                                eletromagnético.</p>
+
+                            <!--<p>Fundada em 2006, a <strong>Inttertech Rio</strong> é referência de liderança no mercado
                                 brasileiro,
                                 fornecendo com excelência há mais de 17 anos soluções
                                 completas em análise de gases, sistemas de condicionamento de amostras, calorímetros
@@ -346,7 +362,9 @@
                                 digitais, encoders bidirecionais, encoders incrementais, sensores de medição de
                                 velocidade, aceleração e posição, células de carga para
                                 pontes rolantes, guindastes, bags para testes de carga, gerenciamento e inventário
-                                industrial, micro-célula/strain gauge.</p>
+                                industrial, micro-célula/strain gauge.</p>-->
+
+
                             <p>Distribuimos as melhores marcas do mercado: <strong>Hamilton, Druck, Panametrics, Baker
                                     Hughes,
                                     Union, Eilon Engineering, Suntex, Lightning
@@ -805,7 +823,8 @@
                                     </li>
                                 </ul>
                                 <div class="btn-area mt-4 d-flex gap-4 align-items-center">
-                                    <a href="#contato" class="cmn-btn"><i class="icon-f-cart text-white"></i>&nbsp;Faça uma cotação</a>
+                                    <a href="#contato" class="cmn-btn"><i class="icon-f-cart text-white"></i>&nbsp;Faça
+                                        uma cotação</a>
                                 </div>
                             </div>
                         </div>
@@ -844,43 +863,55 @@
 
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <form class="needs-validation" id="frm-contact" action="send/send-contact.php" method="POST" novalidate>
+                                <form class="needs-validation" id="frm-contact" action="send/send-contact.php"
+                                    method="POST" novalidate>
                                     <div class="row">
                                         <div class="col-12 mb-3">
                                             <label for="name-contact">Qual o seu nome completo?</label>
-                                            <input type="text" name="name" id="name-contact" class="form-control" placeholder="Digite aqui o seu nome completo" required>
+                                            <input type="text" name="name" id="name-contact" class="form-control"
+                                                placeholder="Digite aqui o seu nome completo" required>
                                             <!-- <div class="valid-feedback">Username field is valid!</div> -->
                                         </div>
                                         <div class="col-12 mb-3">
                                             <label for="email-contact">Qual o seu e-mail corporativo?</label>
-                                            <input type="email" name="email" id="email-contact" class="form-control" placeholder="Digite aqui o seu email" required>
+                                            <input type="email" name="email" id="email-contact" class="form-control"
+                                                placeholder="Digite aqui o seu email" required>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <div class="form-group">
-                                                <label for="phone-contact">Qual o seu telefone (se tiver Whatsapp, melhor)?</label>
-                                                <input type="text" name="phone" class="telefone-form-cta-wpp form-control" id="phone-contact" placeholder="" required>
+                                                <label for="phone-contact">Qual o seu telefone (se tiver Whatsapp,
+                                                    melhor)?</label>
+                                                <input type="text" name="phone"
+                                                    class="telefone-form-cta-wpp form-control" id="phone-contact"
+                                                    placeholder="" required>
                                             </div>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <label for="cnpj-contact">Qual o CNPJ da sua empresa?</label>
-                                            <input type="text" name="cnpj" class="cnpj-form-cta-wpp form-control" id="cnpj-contact" placeholder="" required>
+                                            <input type="text" name="cnpj" class="cnpj-form-cta-wpp form-control"
+                                                id="cnpj-contact" placeholder="" required>
                                         </div>
                                         <div class="col-12 mb-3">
                                             <label for="form-message">Mensagem</label>
-                                            <textarea id="form-message" name="message" cols="30" rows="5" class="form-control" required></textarea>
+                                            <textarea id="form-message" name="message" cols="30" rows="5"
+                                                class="form-control" required></textarea>
                                         </div>
                                     </div>
-                                    <p>Clicando abaixo, o nosso time comercial vai emitir a <strong>proposta e enviar para o seu e-mail nos próximos minutos.</strong></p>
+                                    <p>Clicando abaixo, o nosso time comercial vai emitir a <strong>proposta e enviar
+                                            para o seu e-mail nos próximos minutos.</strong></p>
                                     <br>
                                     <!-- RECAPTCHA -->
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <div class="g-recaptcha" id="g-recaptcha-form" data-sitekey="6LdX6LgmAAAAADFdW1XUaG_CRfzenPRRsphrmQA4"></div>    
-                                            <p class="text-center"><label class="recaptcha-error-form-contact" style="color: red;">Preencha o recaptcha</label></p>                             
+                                            <div class="g-recaptcha" id="g-recaptcha-form"
+                                                data-sitekey="6LdX6LgmAAAAADFdW1XUaG_CRfzenPRRsphrmQA4"></div>
+                                            <p class="text-center"><label class="recaptcha-error-form-contact"
+                                                    style="color: red;">Preencha o recaptcha</label></p>
                                         </div>
-                                    </div>                                    
+                                    </div>
                                     <br>
-                                    <p class="text-center"><button type="submit" class="cmn-btn" id="btn-form-contact">Enviar</button></p>
+                                    <p class="text-center"><button type="submit" class="cmn-btn"
+                                            id="btn-form-contact">Enviar</button></p>
                                 </form>
                             </div>
 
@@ -901,7 +932,8 @@
         <i class="fa fa-whatsapp"></i>
     </a> -->
 
-    <a href="https://wa.me/5521996072513?text=Gostaria%20de%20informações%20sobre%20o%20produto%20West%206100" class="cta-wpp" target="_blank">
+    <a href="https://wa.me/5521996072513?text=Gostaria%20de%20informações%20sobre%20o%20produto%20West%206100"
+        class="cta-wpp" target="_blank">
         <i class="fa fa-whatsapp"></i>
     </a>
 
@@ -925,8 +957,9 @@
                 <div class="modal-body">
                     <p>Olá! Que tal receber um orçamento sem compromisso? Por favor,
                         informe seu nome, e-mail corporativo, CNPJ e telefone.</p>
-                    <br>                    
-                    <form class="form-cta-wpp" action="send/send-contact-wpp.php" method="POST" id="form-cta-wpp" novalidate>
+                    <br>
+                    <form class="form-cta-wpp" action="send/send-contact-wpp.php" method="POST" id="form-cta-wpp"
+                        novalidate>
                         <div class="mb-3">
                             <input type="text" name="name" class="form-control" id="name-form-cta-wpp"
                                 placeholder="Nome Completo *" aria-describedby="emailHelp" required>
@@ -950,7 +983,8 @@
                         <p id="label-captcha"></p>
                         <input id="valida" type="number" required />
                         <p id="mensagem" style="color: red;"></p>
-                        <button type="submit" class="btn btn-primary d-flex mt-4 justify-content-end" id="btn-form-cta-wpp">Iniciar conversa</button>
+                        <button type="submit" class="btn btn-primary d-flex mt-4 justify-content-end"
+                            id="btn-form-cta-wpp">Iniciar conversa</button>
                     </form>
                 </div>
             </div>
@@ -965,9 +999,9 @@
                     <div class="row gap-3 gap-md-0 justify-content-between align-items-center">
                         <div class="col-md-12 d-flex justify-content-center">
                             <a href="index.php">
-                                <img src="assets/images/white_Inttertech-Rio_HORIZ-1024x205.png" class="logo" style="width: 200px; height: auto; margin-bottom: 30px;"
-                                    alt="logo">
-                                </a>
+                                <img src="assets/images/white_Inttertech-Rio_HORIZ-1024x205.png" class="logo"
+                                    style="width: 200px; height: auto; margin-bottom: 30px;" alt="logo">
+                            </a>
                         </div>
                         <div class="col-md-12">
                             <div class="copyright text-center mt-4 mb-4">
@@ -997,7 +1031,8 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/custom.js?v=<?php echo md5(time()); ?>"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/localization/messages_pt_BR.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/localization/messages_pt_BR.min.js">
+    </script>
     <script src="https://kit.fontawesome.com/78bb8de998.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -1019,10 +1054,12 @@
             }
             //console.log(param_recaptcha );
 
-            function getSearchParams(k){
-                var p={};
-                location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){p[k]=v})
-                return k?p[k]:p;
+            function getSearchParams(k) {
+                var p = {};
+                location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(s, k, v) {
+                    p[k] = v
+                })
+                return k ? p[k] : p;
             }
         });
     </script>
